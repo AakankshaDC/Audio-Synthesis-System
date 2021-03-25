@@ -17,13 +17,15 @@ Java classes preferred here are: AudioFormat, AudioInputStream and SourceDataLin
 Inputs are Frequencies, Sample Rate (The higher the sampling rate, the more samples are required for a fixed amount of time, the more memory is required, and the more computational demands are placed on the computer to be able to handle the audio data in real time) and Number of channels (Mono and Stereo). Java SDK 1.4.1 allows both monaural (one channel) and stereo (two channel) sound.
 
 Variables used in this project are:
-•	sampleRate: (Every signal is represented in form of numbers i.e. the amplitude of the signal at different, uniform instances of time known as samples, the rate is known as sampleRate) Allowable 8000,11025,16000,22050,44100
-•	sampleSizeInBits:  (PCM encoding is used wherein the magnitude of the analog signal is sampled at regular to obtain samples)Allowable 8,16 
-•	channels: Java allows 1 or 2 
-•	signed: JAVA allows only positive values of frequencies. 
+1. sampleRate: (Every signal is represented in form of numbers i.e. the amplitude of the signal at different, uniform instances of time known as samples, the rate is known as sampleRate) Allowable 8000,11025,16000,22050,44100
+2. sampleSizeInBits:  (PCM encoding is used wherein the magnitude of the analog signal is sampled at regular to obtain samples)Allowable 8,16 
+3. channels: Java allows 1 or 2 
+4. signed: JAVA allows only positive values of frequencies. 
+
+
 In this project, there are 5 types of sound synthesized by changing the frequencies of sine wave. They are 
-•	Tones
-•	Stereo Panning
-•	Stereo Ping Pong
-•	FM Sweep
-•	Decay Pulse
+1. Tones
+2. Stereo Panning
+3. Stereo Ping Pong
+4. FM Sweep
+5. Decay Pulse
